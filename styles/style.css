@@ -1,3 +1,50 @@
+.sayfagenisligi{
+  width: 800px;
+  margin: 0 auto;
+}
+.sayfayapisi {
+  margin-top: 25px;
+  padding-top: 60px;
+}
 ul,li{
   list-style: none;
+  margin: 0 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background: url('../images/arkaplan.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.menu li{
+  display: inline-block;
+  text-align: right;
+}
+.menu li a{
+  display: block;
+  line-height: 98px;
+  padding: 0 20px;
+  color: #000;
+  font-size: 24px;
+}
+.menu li a:hover{
+  border-bottom: 2px solid #2398b2;
+  color: #2398b2;
+}
+.logo img{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 400px;
+  height: 100px;
+}
+#menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 720;
+  background-color: #ccc;
+  height: 100px;
 }

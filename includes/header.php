@@ -8,11 +8,12 @@
 
   <body>
 
-    <div id="logo">
+    <div class="logo">
+      <img src="images/logo.png" \>
 
     </div>
-    <div id="menu">
-      <ul>
+    <div id="menu"><right>
+      <ul class="menu">
         <li><a href="index.php">Anasayfa</a></li>
 
         <li><a href="index.php">Hakkımızda</a></li>
@@ -20,7 +21,7 @@
         <li><a href="index.php">Referanslar</a></li>
 
         <li><a href="index.php">İleteşim</a></li>
-      </ul>
+      </ul></right>
     </div>
 
-    <div class="site_genisligi">
+    <div class="sayfagenisligi, sayfayapisi">
