@@ -23,5 +23,3 @@
         <li><a href="index.php">İleteşim</a></li>
       </ul></right>
     </div>
-
-    <div class="sayfagenisligi, sayfayapisi">

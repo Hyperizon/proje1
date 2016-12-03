@@ -18,6 +18,9 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
+.clear{
+  clear: both;
+}
 .menu li{
   display: inline-block;
   text-align: right;
@@ -35,8 +38,9 @@ body{
 }
 .logo img{
   position: fixed;
-  top:0;
-  left: 0;
+  border-radius: 70px;
+  top:5;
+  left: 20;
   width: 400px;
   height: 100px;
 }
@@ -47,4 +51,23 @@ body{
   left: 720;
   background-color: #ccc;
   height: 100px;
+}
+.resim{
+  margin-top: 200px;
+  margin-left: 125px;
+}
+.resim img{
+  width: 50px;
+  border-radius: 50px;
+}
+.resim p{
+  margin-left: 80px;
+  text-align: center;
+  width: 450px;
+  height: 50px;
+  background-color: #000;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.3);
 }
